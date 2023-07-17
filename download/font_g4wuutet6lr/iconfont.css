@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1689349264727') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fenlei:before {
+  content: "\f00a6";
+}
+
+.icon-github:before {
+  content: "\e7ab";
+}
+
+.icon-youtube:before {
+  content: "\e8d7";
+}
+
+.icon-shizhong:before {
+  content: "\e74f";
+}
+
+.icon-GitHub:before {
+  content: "\ea0a";
+}
+
+.icon-Youtube-fill:before {
+  content: "\e883";
+}
+
+.icon-tuite:before {
+  content: "\e652";
+}
+
+.icon-bilibili-fill:before {
+  content: "\e69c";
+}
+
+.icon-youtube1:before {
+  content: "\ea07";
+}
+
+.icon-twitter:before {
+  content: "\ea90";
+}
+
+.icon-bilibili:before {
+  content: "\e609";
+}
+
+.icon-tuite1:before {
+  content: "\ee49";
+}
+
