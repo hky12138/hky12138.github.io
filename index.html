@@ -1,177 +1,237 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
-  root: '/',
-  algolia: undefined,
-  localSearch: undefined,
-  translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
-  copy: {
-    success: 'Copy successfully',
-    error: 'Copy error',
-    noSupport: 'The browser does not support'
-  },
-  relativeDate: {
-    homepage: false,
-    post: false
-  },
-  runtime: '',
-  dateSuffix: {
-    just: 'Just',
-    min: 'minutes ago',
-    hour: 'hours ago',
-    day: 'days ago',
-    month: 'months ago'
-  },
-  copyright: undefined,
-  lightbox: 'fancybox',
-  Snackbar: undefined,
-  source: {
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
-    }
-  },
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isAnchor: false,
-  percent: {
-    toc: true,
-    rightside: false,
-  }
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'Hexo',
-  isPost: false,
-  isHome: true,
-  isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2023-04-30 01:33:00'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./download/font_pg41h1hmg87/iconfont.css">
+    <link rel="stylesheet" href="./download/font_87p1o7ag6s/iconfont.css">
+    <link rel="stylesheet" href="./download/font_g4wuutet6lr/iconfont.css">
 
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
-        }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
+  </head>
+  <body>
+    <header >
+      <div class="header-left">
+        <button><a href="./index.html#">首页</a></button>
+        <button><a href="./index.html#section3">博客文章</a></button>
+      </div>
+      <div class="header-right">
+        <button><a href="./index.html#section2">个人简介</a></button>
+      </div>
+    </header>
+    <div class="banner">
+      <h1>hky的个人小站</h1>
 
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
+    </div>
+   <div class="intro" id="section2">
+    <h1>个人简介</h1>
+    <section>
+      <div class="profile"></div>
+      <h2>hky</h2>
+      <p>ん?一只废柴物理魔法使?兴趣使然的web designerです!</p>
+      <div class="container">
+        <div class="skill">Skills</div>
+        <div class="sk">Cook</div>
+        <div class="sk">Web Design</div>
+        <div class="sk">Drive</div>
+        <div class="sk">Tutor</div>
+      </div>
+      <div class="contactContainer">
+        <div class="contact">Channel</div>
+        <div class="ct"><a href="https://github.com/hky12138"><span class="iconfont icon-github"></span></a></div>
+        <div class="ct"><a href="https://space.bilibili.com/25402688?spm_id_from=333.337.0.0"><span class="iconfont icon-bilibili-fill"></span></a></div>
+        <div class="ct"><a href="#"><span class="iconfont icon-Youtube-fill"></span></a></div>
+        <div class="ct"><a href="#"><span class="iconfont icon-tuite1"></a></div>
+      </div>
+    </section>
+  </div>
+    <div class="recommendations" id="section3">
+      <h2>文章推荐</h2>
+      <ul >
+       <!-- <li><a href="#">叛逆的鲁鲁修
+       </a><div>你知道为什么雪花斗颜色是白色的吗，因为他已经忘记了自己的颜色
+        <section class="date" >
+          <span class="iconfont icon-shizhong"></span>
+          2023.07.13
+        </section>
+        <section class="type"></section>
+      </div></li>
+       <li><a href="#">叛逆	
+      </a><div><section class="date" >
+        <span class="iconfont icon-shizhong"></span>
+        2023.07.13
+      </section>
+      <section class="type"></section></div></li>
+      <li><a href="#">
+      </a><div><section class="date" >
+        <span class="iconfont icon-shizhong"></span>
+        2023.07.13
+      </section>
+      <section class="type"></section></div></li> -->
+      </ul>
+    </div>
 
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
+    <footer>
+      <ul>
+        <li><a href="https://github.com/hky12138"><span class="iconfont icon-github"></span></a></li>
+        <li><a href="#"><span class="iconfont icon-Youtube-fill"></span></a></li>
+        <li><a href="#"><span class="iconfont icon-tuite1"></a></li>
+        <li><a href="https://space.bilibili.com/25402688?spm_id_from=333.337.0.0"><span class="iconfont icon-bilibili-fill"></span></a></li>
+      </ul>
+    </footer>
 
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      if (id) link.id = id
-      link.onerror = reject
-      link.onload = link.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        link.onload = link.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(link)
-    })
-  
-      win.activateDarkMode = function () {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = function () {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
-    
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
-        
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
-    
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
-      }
-    }
-    detectApple()
-    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Hexo"><span class="site-name">Hexo</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/04/29/5.1%E5%BE%AE%E5%88%86%E5%BD%A2%E5%BC%8F/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-04-29T10:12:30.421Z" title="Created 2023-04-29 18:12:30">2023-04-29</time></span></div><div class="content">复习review![[Pasted image 20230421184244.png]]
-![[Pasted image 20230420142840.png]]
-L形式![[Pasted image 20230420105903.png]]
-![[Pasted image 20230420112048.png]]
-规定由这样的张量组成的空间为：$\Lambda(l)$
-Prop![[Pasted image 20230420105921.png]]证明：$$\begin{split}&amp;\omega_{a_{1}…a_{n}}=\frac{1}{n!}\sum_{\sigma}(-1)^{\sigma}\omega_{a_{\sigma(1)}…a_{\sigma(n)}}\&amp;\omega_{a_{\pi(1)}…a_{\pi(n)}}=\frac{1}{n!}\sum_{\sigma}(-1)^{\sigma}\omega_{a_{\pi\sigma(1)}…a_{\pi\sigma(n)}}\&amp;\omega_{a_{\pi(1)}…a_{\pi(n)}}=\ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/04/29/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-04-29T07:27:08.016Z" title="Created 2023-04-29 15:27:08">2023-04-29</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
 
-More info: Writing
-Run server1$ hexo server
 
-More info: Server
-Generate static files1$ hexo generate
+    <script type="text/javascript" src="1.js">
 
-More info: Generating
-Deploy to remote sites1$ hexo deploy
 
-More info: Deployment
-</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/29/5.1%E5%BE%AE%E5%88%86%E5%BD%A2%E5%BC%8F/" title="No title">No title</a><time datetime="2023-04-29T10:12:30.421Z" title="Created 2023-04-29 18:12:30">2023-04-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/29/hello-world/" title="Hello World">Hello World</a><time datetime="2023-04-29T07:27:08.016Z" title="Created 2023-04-29 15:27:08">2023-04-29</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">April 2023</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-04-29T17:33:00.633Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+// // 滚动视差
+//   const parallaxImg = document.querySelector('.intro');
+//     const windowHeight = window.innerHeight;
+
+//     window.addEventListener('scroll', () => {
+//       const scrollY = window.scrollY;
+//       const imgPositionY = parallaxImg.getBoundingClientRect().top;
+//       const imgHeight = parallaxImg.clientHeight;
+//       const scrollPercent = (scrollY - imgPositionY + windowHeight) / (imgHeight + windowHeight) * 100;
+      
+//       parallaxImg.style.backgroundPosition = `0 -${(scrollPercent/100)*10-3}rem`;
+//     });
+// // header的透明
+//     window.addEventListener('scroll', function() {
+//         const header = document.querySelector('header');
+//         if (window.scrollY <10) {
+//           header.classList.add('colorful');
+//         } else {
+//           header.classList.remove('colorful');
+//         }
+//       });
+
+// // fetch('./webmd/')
+// //   .then(response => response.text())
+// //   .then(data => {
+// //     const parser = new DOMParser();
+// //     const html = parser.parseFromString(data, 'text/html');
+// //     const links = html.querySelectorAll('a');
+// //     const ul = document.querySelector('.recommendations ul');
+// //     j=0;
+// //     for (let i = 0; i < links.length; i++) {
+// //       const href = links[i].href;
+// //       if (href.endsWith('.md')) {
+// //         j=j+1;
+// //          const filename = decodeURI(href.match(/[^/]*$/)[0].replace('.md', ''));
+// //         // const li = document.createElement('li');
+// //         // const a = document.createElement('a');
+// //         // a.href = `article-${i + 1}.html`;
+// //         // a.textContent = filename;
+// //         // li.appendChild(a);
+// //         // ul.appendChild(li);
+// //         const li = document.createElement('li');
+// //       //  const div = document.createElement('div');
+// //       //  div.classList.add('recommendation');
+// //        const a = document.createElement('a');
+// //        const h3=document.createElement('h3');
+// //        a.href = `article-${i+1}.html`;
+// //          //a.textContent = filename
+// //         h3.textContent=filename
+// //         const img = document.createElement('img');
+// //         img.src = `./image/${j }.jpg`;
+// //           img.alt = filename;
+// //            const p = document.createElement('p');
+// //            p.textContent = '这里是内容简介';
+// //            li.appendChild(a);
+// //            a.appendChild(h3);
+// //            a.appendChild(img);
+// //            a.appendChild(p);
+// //           // li.appendChild(div);
+      
+// //           ul.appendChild(li);
+// //       }
+// //     }
+// //   });
+
+//       // 推荐文章
+//       // 1.对象定义
+
+//       const recom=[
+//         {
+//           date:"2023.07.13",
+//           type:"网站说明",
+//           img: "img\/0.png",
+//           title:"关于网站",
+//           text: "本网站由一前端菜鸟制作，请广大朋友多多指正",
+//           text_Color: "white",
+//           bg_Color: " linear-gradient(to right, black, #c6dbe4)",
+//           address:"1"
+//         },
+//         {
+//           date:"2023.07.16",
+//           type:"动漫杂谈",
+//           img: "img\/1.png",
+//           title:"反逆的鲁鲁修",
+//           text: "为什么雪的颜色是透明的呢？因为它们已经忘记了自己的颜色",
+//           text_Color: "white",
+//           bg_Color: " linear-gradient(to right, black, #c6dbe4)",
+//           address:"2"
+//         },
+//         {
+//           date:"2023.07.16",
+//           type:"动漫杂谈",
+//           img: "img\/2.png",
+//           title:"我的青春恋爱物语果然有问题",
+//           text: "問題、世界は変わりません、自分は変えられます、さて、どう変わりますか。答え、新世界の神になる",
+//           text_Color: "white",
+//           bg_Color: " linear-gradient(to left, black, pink)",
+//           address:"3"
+//         },
+//         {
+//           date:"2023.07.16",
+//           type:"动漫杂谈",
+//           img: "img\/3.png",
+//           title:"凉宫春日的忧郁",
+//           text: "ただの人間には興味ありません宇宙人、未来人、異世界人、超能力者がいたらあたしのところに来なさい，以上",
+//           text_Color: "white",
+//           bg_Color: " #000",
+//           address:"4"
+//         },
+//         {
+//           date:"2023.07.16",
+//           type:"动漫杂谈",
+//           img: "img\/4.png",
+//           title:"fate stay night",
+//           text: "正義の味方",
+//           text_Color: "white",
+//           bg_Color: "#000",
+//           address:"5"
+//         },
+//       ]
+//       const ul=document.querySelector(".recommendations ul")
+//       for(i=0;i<4;i++){
+//         ul.innerHTML= ul.innerHTML+`       <li><a  href="blog.html?post=${i+1}">${recom[i].title}
+//        </a><div>${recom[i].text}
+//         <section class="date" >
+//           <span class="iconfont icon-shizhong"></span>
+//           ${recom[i].date}
+//         </section>
+//         <section class="lebal" >
+//           <span class="iconfont icon-fenlei"></span>
+//           ${recom[i].type}
+//         </section>
+//         <section class="type"></section>
+//       </div></li>`
+      
+//       }
+//       liList=document.querySelectorAll(".recommendations ul li a")
+//       for(i=0;i<4;i++){
+//          liList[i].style.backgroundImage='url('+recom[i].img+')';
+//       }
+      
+      
+
+
+    </script>
+ 
+    <!-- <iframe src = "music/Lira.mp3" allow = "autoplay" hidden /> -->
+  </body>
+</html>
